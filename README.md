@@ -27,6 +27,9 @@ conda install matplotlib --no-update-deps -y
 conda install jupyter --no-update-deps -y
 conda install mysql-connector-python --no-update-deps -y
 conda install pymysql --no-update-deps -y
+conda install scikit-learn --no-update-deps -y
+conda install "scipy<1.13" --no-update-deps -y
+
 
 python -m pip install -U --upgrade-strategy only-if-needed ir_datasets
 python -m pip install -U --upgrade-strategy only-if-needed rank_bm25
